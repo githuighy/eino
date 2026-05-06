@@ -67,6 +67,11 @@ eino/
 
 > **Fork purpose**: I'm using this fork to experiment with custom retriever implementations and to learn how the graph-based orchestration works under the hood. The upstream repo moves fast, so I periodically sync from `cloudwego/eino`.
 
+### My Experiments
+
+- `components/retriever/` — working on a custom BM25 retriever backed by a local SQLite index
+- `compose/` — adding debug logging to graph execution to better understand node traversal order
+
 ## Contributing
 
 We welcome contributions! Please see our [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md) and review the [contribution guidelines](.github/ISSUE_TEMPLATE) before submitting.
