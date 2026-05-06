@@ -63,6 +63,10 @@ eino/
 └── utils/          # Utility helpers
 ```
 
+## Personal Notes
+
+> **Fork purpose**: I'm using this fork to experiment with custom retriever implementations and to learn how the graph-based orchestration works under the hood. The upstream repo moves fast, so I periodically sync from `cloudwego/eino`.
+
 ## Contributing
 
 We welcome contributions! Please see our [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md) and review the [contribution guidelines](.github/ISSUE_TEMPLATE) before submitting.
