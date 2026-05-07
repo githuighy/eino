@@ -72,6 +72,13 @@ eino/
 - `components/retriever/` — working on a custom BM25 retriever backed by a local SQLite index
 - `compose/` — adding debug logging to graph execution to better understand node traversal order
 
+### Sync Log
+
+| Date | Synced from upstream | Notes |
+|------|----------------------|-------|
+| 2025-06-10 | `cloudwego/eino@main` | Initial fork |
+| 2025-07-01 | `cloudwego/eino@main` | Picked up streaming fixes |
+
 ## Contributing
 
 We welcome contributions! Please see our [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md) and review the [contribution guidelines](.github/ISSUE_TEMPLATE) before submitting.
