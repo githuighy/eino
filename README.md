@@ -73,6 +73,12 @@ eino/
 - `compose/` — adding debug logging to graph execution to better understand node traversal order
 - `components/tool/` — exploring a thin wrapper that auto-retries tool calls on transient errors (up to 3 attempts)
 
+### TODOs
+
+- [ ] Write a proper test suite for the BM25 retriever once the indexing logic stabilizes
+- [ ] Benchmark the SQLite-backed retriever against an in-memory baseline
+- [ ] Check if the upstream graph concurrency fix from 2025-07-14 resolves the race I was seeing in my debug logging patch
+
 ### Sync Log
 
 | Date | Synced from upstream | Notes |
@@ -104,4 +110,4 @@ This project is licensed under the Apache License 2.0 — see the [LICENSE](LICE
 
 ## Acknowledgements
 
-This project is a fork of [cloudwego/eino](https://github.com/cloudwego/eino), originally developed by the CloudWeGo team at ByteDance.
+This project is a fork of [cloudwego/eino](https://github.com/cloudwego/eino), originally developed by t
